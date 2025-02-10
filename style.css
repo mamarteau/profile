@@ -20,6 +20,10 @@ a {
   opacity: 0,8;
 }
 
+a:hover {
+  color: purple;
+}
+
 .card {
   background-color:pink;
   border-radius: 15px;
@@ -30,6 +34,7 @@ a {
   padding: 20px;
   margin: 20px;
   text-align: center;
+  border-radius: 23% 77% 29% 71% / 76% 25% 75% 24%;
 }
 .container {
   width: 700px;
@@ -69,7 +74,7 @@ a {
 }
 
 .button:hover {
-  background-color: blueviolet;
+  background-color: purple;
   transition: 0.2s;
   color: pink;
 }
